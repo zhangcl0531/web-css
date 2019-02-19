@@ -37,7 +37,7 @@ body {
     border-bottom: 1px solid red
 }
 
-.topNavBar .menu{
+.topNavBar .menu {
     font-size: 12px;
     font-weight: bold
 }
@@ -64,5 +64,5 @@ body {
     float: right;
     padding-top: 10px;
     margin-right: 20px;
-    
+
 }
