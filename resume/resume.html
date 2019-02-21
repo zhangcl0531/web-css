@@ -7,6 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="a.css">
+    <script src="http://at.alicdn.com/t/font_1054675_krzsnyzfojl.js"></script>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+            font-size: 25px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,16 +46,17 @@
         <div class="mask"></div>
     </div>
     <main>
-        <div class="usercard clearfix">
-            <div class="picture">
-                <img src="./img/avatar.jpg" alt="头像">
-            </div>
-            <div class="text">
+        <div class="usercard">
+            <div class="userinfobox clearfix">
+                <div class="picture">
+                    <img src="./img/avatar.jpg" alt="头像">
+                </div>
+                <div class="text">
                     <span class="welcome">Hello</span>
                     <div class="sj"></div>
                     <h1>张XX</h1>
                     <p>前端开发工程师</p>
-                    <hr>  
+                    <hr>
                     <!-- 分割线 -->
                     <dl>
                         <dt>年龄</dt>
@@ -55,15 +69,35 @@
                         <dd>1588xxxxxxx</dd>
                     </dl>
                     <!-- dl dt dd 列表表格标签 -->
+                </div>
             </div>
+
             <div class="media">
-                <a href="#"><img src="#" alt="..."></a>
-                <a href="#"><img src="#" alt="..."></a>
-                <a href="#"><img src="#" alt="..."></a>
-                <a href="#"><img src="#" alt="..."></a>
-                <a href="#"><img src="#" alt="..."></a>
-                <a href="#"><img src="#" alt="..."></a>
-                <a href="#"><img src="#" alt="..."></a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibo"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-QQ"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-twitter"></use>
+                    </svg>
+                </a>
             </div>
         </div>
 
@@ -74,9 +108,7 @@
             <!-- br 换行 -->
             技能：前端开发
         </p>
-
     </main>
-
 </body>
 
 </html>
