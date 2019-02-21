@@ -92,17 +92,17 @@ body {
     min-width: 940px;
     margin-left: auto;
     margin-right: auto;
-    position:absolute;
+    position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform:translate(-50%,-30%);
+    -webkit-transform: translate(-50%, -30%);
 }
 
 .text .welcome {
     background-color: #e6686a;
     color: white;
     padding: 4px 16px;
-    
+
 }
 
 .sj {
@@ -126,7 +126,6 @@ body {
     margin-left: 65px;
     margin-top: 4px;
     width: 470px;
-    ;
 }
 
 
@@ -174,7 +173,7 @@ hr {
 }
 
 
-.media a{
+.media a {
     display: inline-block;
     width: 35px;
     height: 35px;
