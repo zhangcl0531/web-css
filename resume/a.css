@@ -8,7 +8,8 @@ a {
     color: white
 }
 
-ul li {
+ul li,
+ol {
     list-style: none
 }
 
@@ -25,13 +26,15 @@ body {
     left: 0;
     right: 0;
     min-width: 940px;
+    z-index: 1;
 }
 
-.topNavBar>nav>ul>li {
+
+.topNavBar nav ul li {
     float: left;
 }
 
-.topNavBar>nav>ul>li>a {
+.topNavBar nav ul li a {
     display: block;
     margin: 10px;
     padding-bottom: 5px;
@@ -39,8 +42,8 @@ body {
     border-bottom: 2px solid transparent;
 }
 
-.topNavBar>nav>ul>li>a:hover {
-    border-bottom: 2px solid red
+.topNavBar nav ul li a:hover {
+    border-bottom: 2px solid #e6686a;
 }
 
 .topNavBar .menu {
@@ -89,13 +92,12 @@ body {
 .usercard {
     background-color: #ffffff;
     color: black;
-    min-width: 940px;
+    max-width: 940px;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -30%);
+    margin: 0 auto;
+    margin-top: -340px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .text .welcome {
@@ -188,4 +190,85 @@ hr {
 
 .media a:hover {
     background: #CF5D5F
+}
+
+
+.downloadbutton {
+    text-align: center
+}
+
+.downloadresume {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    border: 1px solid #cdcfd1;
+    background: #efefef;
+    display: inline-block;
+    border-radius: 2px;
+    color: #3d4451;
+    font-weight: bold;
+    margin: 32px 0;
+    transition: box-shadow 0.2s
+}
+
+main p a:hover {
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+}
+
+.userinfo {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.skills {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.skills ol {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    padding: 42px 50px 10px;
+    margin-top: 30px;
+}
+
+.skills ol>li {
+    float: left;
+    width: 48%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    /* box-sizing: border-box; 把padding 或者 border 计算到width内 */
+}
+
+
+.skills ol>li:nth-child(even) {
+    float: right;
+}
+
+
+.progressBar {
+    height: 5px;
+    background: #FAE1E1;
+    border-radius: 2px;
+    margin: 4px 0 40px;
+}
+
+.progressBar .progress {
+    height: 100%;
+    background: #E6686A;
+    border-radius: 2px;
 }
