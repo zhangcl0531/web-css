@@ -272,3 +272,86 @@ main p a:hover {
     background: #E6686A;
     border-radius: 2px;
 }
+
+.portfolio {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+
+.portfolio h2 {
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+
+.portfolio {
+    text-align: center
+}
+
+.portfolio nav {
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.portfolio nav ol {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.portfolio nav ol li {
+    float: left;
+    cursor: pointer;
+}
+
+.portfolio nav ol li:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.portfolio nav .bar {
+    height: 5px;
+    background: white;
+    border-radius: 2px;
+    margin: 4px 0 40px;
+}
+
+
+.portfolio nav .bar .bar-inner {
+    height: 100%;
+    background: #E6686A;
+    width: 20%;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+
+.portfolio nav .bar.state-1 .bar-inner {
+    width: 20%;
+    margin-left: 0;
+}
+
+.portfolio nav .bar.state-2 .bar-inner {
+    width: 25%;
+    margin-left: 25%;
+}
+
+.portfolio nav .bar.state-3 .bar-inner {
+    width: 40%;
+    margin-left: 60%;
+}
+
+.portfolio .works {
+    position: relative;
+}
+
+.portfolio .works .big,
+.portfolio .works .small {
+    position: absolute;
+}
